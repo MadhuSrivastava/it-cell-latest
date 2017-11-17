@@ -125,32 +125,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { 
-	font-size:100px; 
+	font-size:5rem; 
 	line-height:130px; 
 }
 
 h2 { 
-	font-size:40px; 
+	font-size:2rem; 
 	line-height:60px; 
 }
 
 h3 { 
-	font-size:32px; 
+	font-size:1.5rem; 
 	line-height:48px; 
 }
 
 h4 { 
-	font-size:22px; 
+	font-size:1.2rem; 
 	line-height:34px; 
 }
 
 h5 { 
-	font-size:18px; 
+	font-size:1.3rem; 
 	line-height:26px; 
 }
 
 h6 { 
-	font-size:16px; 
+	font-size:1.1rem; 
 	line-height:22px; 
 }
 
@@ -196,10 +196,6 @@ div h1:first-child, div h2:first-child, div h3:first-child, div h4:first-child, 
 	font-weight:900;  
 }
 
-.not-found h1 { 
-	font-size:200px;
-	line-height:230px;  
-}
 	
 .widget-title {
 	text-transform:uppercase;
@@ -240,101 +236,6 @@ img.alignright {
 	float:right; 
 }
 
-/* Lists */
-ul {
-	margin-top:20px;
-	margin-left:15px;
-	list-style:disc;
-}
-	
-div ul:first-child, li ul:first-child { 
-	margin-top:0px; 
-}
-	
-ol {
-	margin-top:20px;
-	margin-left:30px;
-	list-style:decimal;
-}
-
-div ol:first-child, li ol:first-child { 
-	margin-top:0px; 
-}
-
-ul li, ol li {
-	line-height:20px;
-	margin-top:10px;
-}
-
-ul li:first-child, ol li:first-child { 
-	margin-top:0px; 
-}	
-
-ul.list-nostyle {
-	list-style:none !important;
-	margin-left:0 !important;
-}
-	
-ul.list-nostyle li > .fa {
-	margin-right:10px;
-}
-
-/* Others */
-p { 
-	margin-top:20px; 
-}
-	
-div p:first-child {
-	margin-top:0px;
-}	
-	
-strong, b, dt {
-	font-weight:bold;
-}
-
-i, dfn, em {
-	font-style:italic;
-}
-	
-strong i, b i, dt i, strong em, b em, dt em {
-	font-style:italic;
-	font-weight:bold;
-}
-
-blockquote {
-	margin-top:20px;
-	font-size:16px; line-height:24px;
-	font-family:'Raleway';
-	font-weight:300;
-	padding-left:20px;
-	margin-left:20px;
-	color:#262626;
-	border-left:2px solid #d9d9d9;
-}
-
-div blockquote:first-child {  
-	margin-top:0px;
-}
-
-blockquote p {
-	margin:0;
-}
-	
-pre, code {
-	padding:3px 0 3px 20px;
-	margin-left:20px;
-	margin-top:20px;
-	font-size:11px;
-	line-height:16px;
-	display:block;
-	border-left:2px solid #d9d9d9;
-	color:#262626;
-}
-
-div pre:first-child, div code:first-child { 
-	margin-top:0px;
-}
-
 /* Aligns */
 .aligncente r{
 	display:block;
@@ -360,48 +261,7 @@ div pre:first-child, div code:first-child {
 .textright 	{text-align:right;}
 .textleft 	{text-align:left;}
 
-/* Captions */
-.wp-caption {
-	max-width:100% !important;
-	border:1px solid #ddd; 
-	text-align:center; 
-	background-color:#f2f2f2; 
-	padding-top:4px; 
-	margin:10px; 
-	-webkit-border-radius:3px;
-	   -moz-border-radius:3px; 
-	 		border-radius:3px;
-}
 
-.wp-caption img {
-	margin:0; 
-	padding:0; 
-	border:0 none;
-	max-width:100%;
-}
-
-.wp-caption p.wp-caption-text {
-	font-size:11px; 
-	line-height:17px; 
-	padding:0 4px 5px; 
-	margin:0;
-}
-
-/* Blockquote */
-blockquote.left {
-	margin-right:20px;
-	text-align:right;
-	margin-left:0;
-	width:33%;
-	float:left;
-}
-blockquote.right {
-	margin-left:20px;
-	text-align:left;
-	margin-right:0;
-	width:33%;
-	float:right;
-}
 
 /******************************
     - 3. General elements -
@@ -564,7 +424,7 @@ header {
 ********************/
 footer {
 	background:#262626;
-	padding:80px 0;
+	padding:20px 0;
 }
 	
 .footer-logo img {
@@ -572,7 +432,7 @@ footer {
 }	
 
 footer .copyright {
-	font-size:13px;
+	font-size:0.8rem;
 	color:#cccccc;
 }
 	
@@ -609,7 +469,7 @@ nav#main-nav > ul > li > a  {
 	display:block;
 	font-family:'Open Sans'; 
 	font-weight:600;
-	font-size:12px;
+	font-size:0.8rem;
 	line-height:60px; /* Depending on the logo height */
 	color:#262626;
 	text-decoration:none;
@@ -652,7 +512,7 @@ nav#main-nav ul .sub-menu li a {
 	font-family:'Open Sans'; 
 	font-weight:400;
 	color:#999999;
-	font-size:12px;
+	font-size:0.7rem;
 	line-height:20px;
 	padding:7px 20px;
 	display:block;
@@ -739,7 +599,7 @@ nav#responsive-nav > ul li > a {
 	color:#cccccc;
 	font-family:'Open Sans'; 
 	font-weight:600;
-	font-size:12px;
+	font-size:0.7rem;
 	text-transform:uppercase;
 	line-height:24px;
 	padding:8px 20px;
@@ -758,7 +618,7 @@ nav#responsive-nav .sub-menu li a {
 	color:#cccccc;
 	line-height:20px;
 	padding:10px 20px 10px 40px;
-	font-size:12px;
+	font-size:0.7rem;
 }
 	
 /********************
@@ -938,61 +798,10 @@ a.fb-button:hover {
 			transform:scale(1.07);
 }
 	
-a.mini-button { 
-	font-size:10px; 
-	padding:5px 10px; 
-	-webkit-border-radius:2px;
-	   -moz-border-radius:2px; 
-			border-radius:2px;
-}
-
-a.small-button { 
-	font-size:11px; 
-	padding:10px 20px; 
-}
 
 a.medium-button { 
-	font-size:13px;
+	font-size:1rem;
 	padding:12px 40px; 
-}
-
-a.big-button { 
-	font-size:16px;	
-	padding:18px 50px;	
-}
-
-a.fb-button1 {	
-	border:2px solid #999999; 
-	color:#262626;	
-	background:transparent; 
-}
-
-a.fb-button1:hover { 
-	border-color:#262626; 
-	background-color:#262626; 
-	color:#ffffff; 
-}
-
-a.fb-button2 {	
-	border:2px solid #262626; 
-	color:#262626;	
-	background:transparent; 
-}
-
-a.fb-button2:hover { 
-	background-color:#1a1a1a; 
-	color:#ffffff; 
-}
-
-a.fb-button3 { 
-	border:2px solid #4da5f5; 
-	color:#4da5f5;	
-	background:transparent; 
-}
-
-a.fb-button3:hover { 
-	background:#4da5f5; 
-	color:#ffffff; 
 }
 
 a.fb-button4 {	
@@ -1006,39 +815,6 @@ a.fb-button4:hover {
 	color:#262626; 
 }
 
-a.fb-button5 {	
-	border:2px solid #4da5f5; 
-	color:#ffffff;	
-	background:#4da5f5; 
-}
-
-a.fb-button5:hover { 
-	background-color:#4da5f5; 
-	color:#ffffff; 
-}
-
-a.fb-button6 {	
-	border:2px solid #262626; 
-	color:#ffffff;	
-	background:#262626; 
-}
-
-a.fb-button6:hover { 
-	background-color:#262626; 
-	color:#ffffff; 
-}
-
-a.fb-button7 {	
-	border:2px solid #ffffff; 
-	color:#262626;	
-	background:#ffffff; 
-}
-
-a.fb-button7:hover { 
-	background-color:#ffffff; 
-	color:#262626; 
-}
-
 a.fb-buttonicon {
 	-webkit-border-radius:999px;
 	   -moz-border-radius:999px;
@@ -1046,12 +822,8 @@ a.fb-buttonicon {
 }
 
 a.fb-buttonicon i {
-	left:0.08em;
+	left:0.05em;
 	position:relative;
-}
-
-a.fb-buttonicon .fa-play { 
-	left:0.2em;
 }
 
 a.fb-buttonicon.mini-button { 
@@ -1061,29 +833,6 @@ a.fb-buttonicon.mini-button {
 	line-height:24px !important; 
 }
 
-a.fb-buttonicon.small-button { 
-	padding:7px; 
-	width:30px; 
-	height:30px !important; 
-	line-height:30px !important; 
-	font-size:14px; 
-}
-
-a.fb-buttonicon.medium-button { 
-	padding:14px; 
-	width:30px; 
-	height:30px !important; 
-	line-height:30px !important; 
-	font-size:18px; 
-}
-
-a.fb-buttonicon.big-button { 
-	padding:20px; 
-	width:30px; 
-	height:30px !important; 
-	line-height:30px !important; 
-	font-size:22px; 
-}
 
 /* Seperator */
 .seperator {
@@ -1284,7 +1033,7 @@ div .socialmedia-widget:first-child {
 }	
 	
 .overlayinfo h6 {
-	font-size:13px;
+	font-size:1rem;
 	text-transform:uppercase;
 	letter-spacing:0.1em;
 }
@@ -1294,8 +1043,8 @@ div .socialmedia-widget:first-child {
 **********************************/
 .tp-leftarrow.custom, .tp-rightarrow.custom, 
 .tp-leftarrow.default, .tp-rightarrow.default {
-	width:40px !important;	
-	height:40px !important;
+	width:2rem !important;	
+	height:2rem !important;
 	cursor:pointer;
 	background:transparent url(../images/sprites.png) no-repeat !important;		
 }
@@ -1331,7 +1080,6 @@ div .socialmedia-widget:first-child {
 	   -moz-transform:translateX(-2px) translateY(-2px);
 			transform:translateX(-2px) translateY(-2px);
 }
-
 
 /*************************
     - 21. Animations -
@@ -1370,4 +1118,53 @@ div .socialmedia-widget:first-child {
 	-webkit-transform:scale(1.0);
 			transform:scale(1.0);
 }
-	
+.tp-caption.auril-title-big-white strong { font-weight: 900 !important; }
+
+/*************************
+         -Menu -
+*************************/
+
+#logo {
+	height: 60px;
+}
+
+nav#main-nav>ul>li>a {
+	line-height: 60px;
+}
+
+nav#main-nav ul li .sub-menu {
+	top: 100px;
+}
+
+
+.tp-caption.auril-title-medium-dark strong {
+	font-weight: 600 !important;
+}
+
+
+/*************************
+         -Slider Full Screen -
+*************************/
+  .rev_slider >ul,
+  .rev_slider_wrapper >ul,
+  .tp-revslider-mainul >li,
+  .rev_slider >ul >li,
+  .rev_slider >ul >li:before,
+  .tp-revslider-mainul >li:before,
+  .tp-simpleresponsive >ul,
+  .tp-simpleresponsive >ul >li,
+  .tp-simpleresponsive >ul >li:before,
+  .tp-revslider-mainul >li,
+  .tp-simpleresponsive >ul >li{
+	  list-style:none !important;
+	  position:absolute;	
+	  margin:0px !important;
+	  padding:0px !important;
+	  overflow-x: visible;
+	  overflow-y: visible;
+	  list-style-type: none !important;
+	  background-image:none;
+	  background-position:0px 0px;
+	  text-indent: 0em;
+	  top:0px;left:0px;
+  }
