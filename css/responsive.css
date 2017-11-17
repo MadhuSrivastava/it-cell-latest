@@ -62,7 +62,7 @@ nav#main-nav { display: none; }
 .open-responsive-nav { display:block; }
 .logo-top .open-responsive-nav { display:inline-block; }
 
-#portfolio-single aside { margin-top: 0px; }
+#projects-single aside { margin-top: 0px; }
 
 .blog-content { width: 650px; }
 
@@ -106,7 +106,7 @@ h6 { font-size: 16px; line-height: 22px; }
 .main-content { width: 100%; float:none; }
 aside {	width: 100%; float: none; margin-top: 60px; padding-top: 60px; border-top: 1px solid #d9d9d9; }
 
-#portfolio-single aside { border:none; padding-top:0; }
+#projects-single aside { border:none; padding-top:0; }
 
 .blog-date { width: 50px; }
 .blog-date .date-day { font-size: 40px; line-height: 30px;}
@@ -137,12 +137,10 @@ div .column:first-child { margin: 0; }
 /* Spacings */
 .section-title { margin-top: -7px; margin-bottom: 60px; }
 .section-inner { padding-top: 60px; }
-#portfolio-single {  padding-top: 60px; }
-.ajax-section #portfolio-single {  padding-bottom: 60px; }
-#portfolio-single .portfolio-media { margin-top: 40px; }
-#portfolio-single .portfolio-content { margin-top:0; padding-top: 40px; }
-.ajax-section { padding-bottom: 60px; }
-#ajax-loader .loader-icon { top: 20px!important; }
+#projects-single {  padding-top: 60px; }
+.ajax-section #projects-single {  padding-bottom: 60px; }
+#projects-single .projects-media { margin-top: 40px; }
+#projects-single .projects-content { margin-top:0; padding-top: 40px; }
 .close-project { bottom: 70px; }
 .spacer.spacer-mini { height: 15px; }
 .spacer.spacer-small { height: 30px; }

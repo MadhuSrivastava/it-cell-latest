@@ -490,6 +490,7 @@ header {
 	*display:inline; zoom:1; 
 }
 
+
 .logo-top nav#main-nav > ul > li > a  { 
 	line-height:20px;
 } 
@@ -667,7 +668,21 @@ nav#main-nav ul li ul li .sub-menu {
 	top:0px;
 	left:200px;
 }	
+/* Links */
+a {
+	text-decoration:none;
+	color:#4da5f5;
+	cursor:pointer;
+	-webkit-tap-highlight-color:rgba(0,0,0,0.0);
+}
 
+a:hover {
+	color:#262626;
+}	
+	
+.text-light a:hover { 
+	color:#ffffff;
+}
 
 /* Responsive nav on mobile view */	
 .open-responsive-nav {
@@ -798,42 +813,42 @@ section {
 }
 
 /************************
-    - 10. Portfolio -
+    - 10. projects -
 ************************/
-.portfolio-entries {
+.projects-entries {
 	width:110%;	/* Do not change this value */
 }
 	
-.portfolio-entries .masonry-item {
+.projects-entries .masonry-item {
 	width:30%; /* Will be overwritten by javascript */
 	margin-right:0px;
 	margin-bottom:0px;
 	float:left;
 }
 	
-.portfolio-spaced .masonry-item {
+.projects-spaced .masonry-item {
 	margin-right:10px;
 	margin-bottom:10px;
 }
 	
-.portfolio-entries .portfolio-intro {
+.projects-entries .projects-intro {
 	padding:20px 0;
 	text-align:center;
 }
 	
-.portfolio-name { 
+.projects-name { 
 	text-transform:uppercase; 
 }
 	
-.portfolio-name a { 
+.projects-name a { 
 	color:#262626; 
 }
 
-.text-light .portfolio-name a { 
+.text-light .projects-name a { 
 	color:#ffffff; 
 }
 
-.portfolio-name a:hover { 
+.projects-name a:hover { 
 	color:#4da5f5; 
 }
 
@@ -1315,5 +1330,44 @@ div .socialmedia-widget:first-child {
 	-webkit-transform:translateX(-2px) translateY(-2px);
 	   -moz-transform:translateX(-2px) translateY(-2px);
 			transform:translateX(-2px) translateY(-2px);
+}
+
+
+/*************************
+    - 21. Animations -
+*************************/
+.fb-animation {
+	position:relative;
+	opacity:0;
+	-webkit-transition:all 0.7s ease;
+       -moz-transition:all 0.7s ease;
+    		transition:all 0.7s ease;
+}
+	
+.fb-animation-fromtop 		{top:-50px;}
+.fb-animation-frombottom 	{top:50px;}
+.fb-animation-fromleft 		{left:-30px;}
+.fb-animation-fromright 	{left:30px;}
+
+.fb-animation-zoomin { 
+	transform:scale(0);	
+	-ms-transform:scale(0); 	
+	-webkit-transform:scale(0); 
+}
+
+.fb-animation-zoomout { 
+	transform:scale(1.5);	
+	-ms-transform:scale(1.5); 	
+	-webkit-transform:scale(1.5); 
+}
+
+.fb-animation.animated { 
+	top:0; 
+	left:0; 
+	opacity:1;
+	height:100%;
+	max-height:100%;
+	-webkit-transform:scale(1.0);
+			transform:scale(1.0);
 }
 	
